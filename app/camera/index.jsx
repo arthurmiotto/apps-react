@@ -39,7 +39,7 @@ export default function Camera() {
             await MediaLibrary.createAssetAsync(uri);
             Alert.alert("Foto salva na galeria!");
         } else {
-            Alert.alert("Permissão para acessar a galeria foi negada.");
+            Alert.alert("Permissão para acessar a galeria foi negada,");
         }
     };
 
